@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: #7FFFD4;
+}
+
+.topside{
+    width:100%;
+    height: 100px;
+    background: white;
+}
+
+.leftside{
+    width: calc(100% / 2);
+    height: 100%;
+    background-color: bisque;
+}
+
+
+.rightside{
+    width: calc(100% / 2);
+    height: 100%;
+    background-color: rgb(226, 140, 34);
+}
+
+
+.d_flex{
+    display: flex;
+
+}
+
+.square{
+   width: 600px;
+   height: 600px;
+   border: 1px solid black;
+   margin: auto;
+}
+
+.cell {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
