@@ -34,6 +34,10 @@ body{
 
 }
 
+#cube{
+    margin: 5rem;
+}
+
 .square{
    width: 600px;
    height: 600px;
@@ -41,7 +45,7 @@ body{
    margin: auto;
 }
 
-.cell {
+.cell{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;

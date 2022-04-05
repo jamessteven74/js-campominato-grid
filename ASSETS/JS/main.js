@@ -8,16 +8,18 @@ con difficoltà 3 => tra 1 e 49
 */
 
 
-function generateGrid(number_of_cells, selector, element_name, class_name) {
-    const cellsElement = document.querySelector(selector)
-    for (let i = 1; i <= number_of_cells; i++) {
-      const cell = document.createElement(element_name)
-      cell.classList.add(class_name)
-      cellsElement.append(cell)
+for(let i= 1; i < 10; i++) {
+    let html = document.getElementById("cube_row").innerHTML
+    document.getElementById("cube_row").innerHTML = html + '<div class="cell d-flex"></div'
+    
+}
+
+function sum(cell_number, cols_number){
+    for(let i= 1; i < 10; i++) {
+        let html = document.getElementById("cube_row").innerHTML
+        document.getElementById("cube_row").innerHTML = html + '<div class="cell d-flex"></div'
+        
+        
+       
     }
-  }
-
-
-  
-
-
+}
